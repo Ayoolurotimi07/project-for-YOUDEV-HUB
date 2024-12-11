@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <section class="header">
+    <nav>
+        <a href="edu.html"><img src="media/eduford_img/eduford_img/logo.png" alt="Custech"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="showmenu()"></i>
+            <ul>
+                <li><a href="edu.html">HOME</a></li>
+                <li><a href="Abt.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="hidemenu()"></i> 
+    </nav>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- <h1>sum of two numbers</h1>
+  <form action="">
+    <label>First Number:</label>
+    <input type="number" id="num"> <br><br>
+    
+    <label>Second Number:</label>
+    <input type="number" id="num1"> <br><br>
+  </form> 
+
+  <button onclick="calculateSum()">calculate</button> 
+  <p id="result"></p>
+   -->
+  <script>
+    function calculateSum(){
+        let firstNumber = parseFloat(document.getElementById("num").value)
+        let secondNumber = parseFloat(document.getElementById("num1").value)
+        let sum = firstNumber + secondNumber   
+        document.getElementById("result").innerHTML=" The sum of two numbers is " + sum
+    }
+  </script>
+</body>
+</html>
