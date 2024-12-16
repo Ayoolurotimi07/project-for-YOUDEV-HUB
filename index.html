@@ -11,17 +11,17 @@
     <section class="header">
         <nav>
             <a href="#"><img src="img/20241126_142046.png" alt="Custech"></a>
-            <div class="nav-links" id="navlinks">
-                <i class="fa fa-times" onclick="showmenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="gallery.html">GALLERY</a></li>
                     <li><a href="review.html">REVIEW</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="hidemenu()"></i> 
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
         </nav>
         <div class="textbox" id="visitUs">
             <h1>Welcome To Rotex Automobiles</h1>
@@ -154,29 +154,26 @@
 <div class="rows">
     <div class="car-col">
         <img src="img/Screenshot_20241127-125049_1.jpg" alt="">
-        <h3>Toyota</h3>
-        <p class="pl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Eaque quos vero magni ex tempora voluptates similique numquam qui id! 
-            Similique earum debitis facilis sit cupiditate aspernatur porro excepturi
-             modi adipisci.</p>
-
-    </div>
+        <h3>Toyota RAV4</h3>
+        <p >
+            Toyota  RAV4 is a globally recognized automotive brand known for its reliability, durability, and innovative designs. Founded in 1937, Toyota has become one of the largest automobile manufacturers in the world. The company produces a wide range of vehicles, including sedans, SUVs, trucks, and hybrids, catering to diverse consumer needs.  
+            Key features of Toyota RAV4:  
+            Reliability: Toyota vehicles are renowned for their long lifespan and low maintenance costs.</p>
+          </div>
     <div class="car-col">
         <img src="img/Screenshot_20241127-125440_1.jpg" alt="">
-        <h3></h3>
-        <p class="pl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Eaque quos vero magni ex tempora voluptates similique numquam qui id! 
-            Similique earum debitis facilis sit cupiditate aspernatur porro excepturi
-             modi adipisci.</p>
-
+        <h3>Lexus</h3>
+        <p>
+            Lexus is the luxury vehicle division of Toyota, established in 1989 to compete with other premium car brands. Known for blending high performance, cutting-edge technology, and luxurious craftsmanship, Lexus has become a global symbol of quality and refinement. The brand offers a wide range of vehicles, including sedans, SUVs, hybrids, and electric models, catering to luxury-seeking customers.
+            Key Features of Lexus Cars
+           Luxury and Comfort: Lexus vehicles are designed with premium materials, sophisticated interiors, and advanced comfort features.</p>
     </div>
     <div class="car-col">
         <img src="img/Screenshot_20241127-124901_1.jpg" alt="">
-        <h3></h3>
-        <p class="pl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Eaque quos vero magni ex tempora voluptates similique numquam qui id! 
-            Similique earum debitis facilis sit cupiditate aspernatur porro excepturi
-             modi adipisci.</p>
+        <h3>Honda</h3>
+        <p> Lexus is the luxury vehicle division of Toyota, established in 1989 to compete with other premium car brands. Known for blending high performance, cutting-edge technology, and luxurious craftsmanship, Lexus has become a global symbol of quality and refinement. The brand offers a wide range of vehicles, including sedans, SUVs, hybrids, and electric models, catering to luxury-seeking customers.
+            Key Features of Lexus Cars
+           Luxury and Comfort: Lexus vehicles are designed with premium materials, sophisticated interiors, and advanced comfort features.</p>
 
     </div>
 </div>
@@ -194,7 +191,7 @@
 </section>   
 
 
-        <!---------------FOTTER-------------->
+        <!---------------FOOTER-------------->
         <section class="footer">
             <h4>About Us</h4>
             <p>We provide high-quality, affordable cars with exceptional reliability,<br>
@@ -205,19 +202,23 @@
                  <i class="fa fa-instagram"></i>
                  <i class="fa fa-linkedin"></i>
                  </div>
-                 <p>Made With <i class="fa fa-heat-o">
-                 </i> Rotex Web Developer</p>
+                 <p>&copy; 2024<i class="fa fa-heat-o">
+                </i> | All Right Reseved</p>
 </section>
 
     <script>
-       var navlinks= document.getElementById("navlinks")
-       function showmenu(){
-        navlinks.style.right="0";
+       var navLinks = document.getElementById("navLinks");
+
+       function showMenu(){
+            navLinks.style.right="0";
        }
-       function hidemenu(){
-        navlinks.style.right="-200px";
+
+       function hideMenu(){
+            navLinks.style.right="-200px";
        }
-       var visitUs= document.getElementById("visitUs")
+
+       var visitUs = document.getElementById("visitUs")
+
        function visit(){
         alert("send an email to rotexautomobile@gmail.com for more enquires or visit any of our social media handles at rotex automobile")
        }

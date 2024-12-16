@@ -11,8 +11,8 @@
     <section class="header">
         <nav>
             <a href="#"><img src="img/20241126_142046.png" alt="Custech"></a>
-            <div class="nav-links" id="navlinks">
-                <i class="fa fa-times" onclick="showmenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -21,11 +21,11 @@
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="hidemenu()"></i> 
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
         </nav>
         <div class="textbox" id="visitUs">
             <h1>Contact Us</h1>
-            <p>We Sell All Kinds Of Cars And We Deliver NationWide When Talking Of Getting the best cars<br> <b>Rotex Automobile</b> 
+            <p>We Sell All Kinds Of Cars And We Deliver NationWide When Talking Of Getting the Best Cars<br> <b>Rotex Automobile</b> 
                 is the the best you can ever think of,we also sell both second hand and brand new car at an affordable rate too.</p>
             <!-- <a href=""class="hero" onclick="visit()">Visit Us To Know More</a>   -->
            </div>    
@@ -33,7 +33,7 @@
     
     <section class="contact">
         <h4>Contact Us</h4>
-        <p> You can get in touch wit us on any of our social media @rotexautomobile 
+        <p> You can get intouch with us on any of our social media @rotexautomobile 
             or send a
         </p>
              <div class="icon">
@@ -43,8 +43,8 @@
                 <i class="fa fa-linkedin"></i>
                 <i class="fa fa-whatsapp"></i>
              </div>
-             <p>Made With <i class="fa fa-heat-o">
-             </i> Rotex Web Developer</p>
+             <p>&copy; 2024<i class="fa fa-heat-o">
+            </i> | All Right Reseved</p>
 </section>
 <!-- 
     <section class="footer">
@@ -60,6 +60,18 @@
              <p>Made With <i class="fa fa-heat-o">
              </i> Rotex Web Developer</p>
 </section> -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0px"
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px"
+    }
+</script>
 
 </body>
 </html>
