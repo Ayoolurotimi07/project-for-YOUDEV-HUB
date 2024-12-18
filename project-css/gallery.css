@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Fira Sans', Times, serif;
 }
 
 .header{
@@ -23,7 +23,7 @@ nav{
 }
 
 nav img{
-    width: 200px;
+    width: 150px;
     mix-blend-mode: screen;
 }
 
@@ -72,14 +72,6 @@ nav .fa{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-}
-
-.textbox h2{
-    font-size: 20px;
-    color: #fff;
-    padding: 20px;
-    margin: 30px;
-    display: flex;
 }
 
 .textbox h1{
@@ -172,7 +164,7 @@ h1{
         }   
         .nav-links{
             position: absolute;
-            background: #f44336;
+            background: #16a0c2;
             height: 100vh;
             width: 200px;
             top: 0;

@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Fira Sans', Times, serif;
 }
 
 .header{
@@ -24,7 +24,7 @@ nav{
 }
 
 nav img{
-    width: 200px;
+    width: 150px;
     mix-blend-mode: screen;
 }
 
@@ -75,14 +75,6 @@ nav .fa{
     text-align: center;
 }
 
-.textbox h2{
-    font-size: 20px;
-    color: #fff;
-    padding: 20px;
-    margin: 30px;
-    display: flex;
-}
-
 .textbox h1{
     font-size: 62px;
 }
@@ -108,6 +100,71 @@ nav .fa{
     background: #f44336;
     transition: 0.5s;
 }
+/* styles.css */
+
+.contact{
+    padding: 20px;
+}
+.contact-info, .contact-form {
+    width: 60%;
+    margin-left: 300px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #0073e6;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+p{
+    margin: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5px;
+}
+
+input, textarea, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+
 /* ---------------footer------- */
 .contact{
     text-align: center;
@@ -162,7 +219,7 @@ nav .fa{
     }   
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #16a0c2;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -181,6 +238,68 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+ .contact-form {
+    width: 300px;
+    height: 450px;
+    margin-top: 25px;
+    margin-left: 12px;
+    margin-right: 10px;
+    }
+    .contact-info{
+        
+    width: 300px;
+    height: 130px;
+    margin-top: 25px;
+    margin-left: 12px;
+    margin-right: 10px;
+    }    
+    
+h2 {
+    color: #0073e6;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+p{
+    margin: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2px;
+}
+
+input, textarea, button {
+    margin-bottom: 7px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
     .contact{
         text-align: center;
         width: 100%;

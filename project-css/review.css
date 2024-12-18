@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Fira Sans', Times, serif;
 }
 
 .header{
@@ -23,7 +23,7 @@ nav{
 }
 
 nav img{
-    width: 200px;
+    width: 150px;
     mix-blend-mode: screen;
 }
 
@@ -74,14 +74,6 @@ nav .fa{
     text-align: center;
 }
 
-.textbox h2{
-    font-size: 20px;
-    color: #fff;
-    padding: 20px;
-    margin: 30px;
-    display: flex;
-}
-
 .textbox h1{
     font-size: 62px;
 }
@@ -106,11 +98,6 @@ nav .fa{
     background: #f44336;
     transition: 0.5s;
 }
-  
- /* ------WHAT OUR STUDENT SAY------ */
- 
- 
-
 
        /* ------WHAT OUR STUDENT SAY------ */
        .review{
@@ -120,7 +107,7 @@ nav .fa{
         text-align: center;
        }
        .review-col{
-        /* flex-basis: 44%; */
+        flex-basis: 44%;
         border-radius: 10px;
         margin-bottom: 5%;
         text-align: left;
@@ -242,7 +229,7 @@ button{
     }   
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #16a0c2;
         height: 100vh;
         width: 200px;
         top: 0;

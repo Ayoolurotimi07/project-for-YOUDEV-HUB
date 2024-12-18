@@ -6,11 +6,14 @@
     <title>Rotex Automobiles</title>
     <link rel="stylesheet" href="project-css/contact.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
 <body> 
     <section class="header">
         <nav>
-            <a href="#"><img src="img/20241126_142046.png" alt="Custech"></a>
+            <a href="#"><img src="img/20241216_121818.png" alt="Custech"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -25,17 +28,42 @@
         </nav>
         <div class="textbox" id="visitUs">
             <h1>Contact Us</h1>
-            <p>We Sell All Kinds Of Cars And We Deliver NationWide When Talking Of Getting the Best Cars<br> <b>Rotex Automobile</b> 
-                is the the best you can ever think of,we also sell both second hand and brand new car at an affordable rate too.</p>
-            <!-- <a href=""class="hero" onclick="visit()">Visit Us To Know More</a>   -->
+            <p>We’d love to hear from you! Whether you have a question, feedback,<br> or just want to get in touch, feel free to reach out.</p>
            </div>    
     </section>
-    
+<section >
+    <section class="contact-info">
+        <h2>Our Contact Information</h2>
+        <p><strong>Email:</strong> <a href="rotexautomobile@gmail.com">rotexautomobile@gmail.com</a></p>
+        <p><strong>Phone:</strong> (+234) 80 625 930 16</p>
+        <p><strong>Address:</strong> 123, Temi Street, Felele, Lokoja, Kogi State</p>
+    </section>
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+</section>
     <section class="contact">
         <h4>Contact Us</h4>
-        <p> You can get intouch with us on any of our social media @rotexautomobile 
-            or send a
-        </p>
+        <p>We provide high-quality, affordable cars with exceptional reliability,
+            ensuring every customer drives away satisfied and confident in their choice.</p>
+
              <div class="icon">
                 <i class="fa fa-facebook"></i>
                 <i class="fa fa-twitter"></i>
@@ -43,23 +71,9 @@
                 <i class="fa fa-linkedin"></i>
                 <i class="fa fa-whatsapp"></i>
              </div>
-             <p>&copy; 2024<i class="fa fa-heat-o">
+             <p>&copy;2024 <i class="fa fa-heat-o">
             </i> | All Right Reseved</p>
 </section>
-<!-- 
-    <section class="footer">
-        <h4>About Us</h4>
-        <p>We provide high-quality, affordable cars with exceptional reliability,<br>
-            ensuring every customer drives away satisfied and confident in their choice.</p>
-             <div class="icon">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-linkedin"></i>
-             </div>
-             <p>Made With <i class="fa fa-heat-o">
-             </i> Rotex Web Developer</p>
-</section> -->
 
 <script>
     var navLinks = document.getElementById("navLinks");
